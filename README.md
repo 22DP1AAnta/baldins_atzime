@@ -5,7 +5,7 @@ API (Application Programming Interface) ir noteikumu kopums, kas ļauj dažādā
 
 Kā deklarēt mainīgo PHP valodā?
 
-PHP valodā mainīgo var deklarēt, izmantojot dolāra zīmi ($) pirms mainīgā nosaukuma. Mainīgā nosaukumam jāsākas ar burtu vai apakšsvītru. Piemērs: $mainigs = "vērtība";
+    PHP valodā mainīgo var deklarēt, izmantojot dolāra zīmi ($) pirms mainīgā nosaukuma. Mainīgā nosaukumam jāsākas ar burtu vai apakšsvītru. Piemērs: $mainigs = "vērtība";
 
 
 Kādu arhitektūru izmanto Laravel, paskaidro kā tā strādā:
@@ -17,7 +17,9 @@ Kādu arhitektūru izmanto Laravel, paskaidro kā tā strādā:
     Kontrolieris saņem lietotāja pieprasījumu, apstrādā to, izmantojot atbilstošu modeli (datu manipulācijas), un nosūta atbildi atpakaļ lietotājam, izmantojot skatu, kas parāda rezultātu.
 
 Kas ir ORM, kāpēc to izmanto tīra SQL vietā?
-    ORM (Object-Relational Mapping) ir programmēšanas tehnika, kas ļauj kartēt datu bāzes tabulas uz objektorientētas valodas klases. Tas ļauj programmētājiem strādāt ar datiem kā ar augsta līmeņa objektiem, nevis tiešiem SQL vaicājumiem, atvieglojot kodu rakstīšanu, uzturēšanu un izpratni. ORM tiek izmantots tīra SQL vietā, jo tas samazina kļūdu iespējamību, automātizē daudzas rutīnas uzdevumus un padara kodu vieglāk lasāmu.
+    
+    ORM (Object-Relational Mapping) ir programmēšanas tehnika, kas ļauj kartēt datu bāzes tabulas uz objektorientētas valodas klases. Tas ļauj programmētājiem strādāt ar datiem kā ar augsta līmeņa objektiem, nevis tiešiem SQL vaicājumiem, atvieglojot kodu rakstīšanu,            uzturēšanu un izpratni. ORM tiek izmantots tīra SQL vietā, jo tas samazina kļūdu iespējamību, automātizē daudzas rutīnas uzdevumus un padara kodu vieglāk lasāmu.
 
 Eloquent ORM pieprasījums modelim User:
-$users = User::where('rating', '>', 4)->get();
+    
+    $users = User::where('rating', '>', 4)->get();
