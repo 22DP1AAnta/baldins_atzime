@@ -1,6 +1,6 @@
 Kas ir API?
-
-API (Application Programming Interface) ir noteikumu kopums, kas ļauj dažādām programmatūrām savā starpā komunicēt. Tas nodrošina veidu, kā viena programmatūra var piekļūt funkcionalitātei vai datiem, ko nodrošina cita programmatūra, nezinot detaļas par to, kā šī programmatūra darbojas. API tiek plaši izmantots web servisos, lai ļautu datu apmaiņu starp dažādiem sistēmām un platformām.
+    
+    API (Application Programming Interface) ir noteikumu kopums, kas ļauj dažādām programmatūrām savā starpā komunicēt. Tas nodrošina veidu, kā viena programmatūra var piekļūt funkcionalitātei vai datiem, ko nodrošina cita programmatūra, nezinot detaļas par to, kā šī programmatūra darbojas. API tiek plaši izmantots web servisos, lai ļautu datu apmaiņu starp dažādiem sistēmām un platformām.
 
 
 Kā deklarēt mainīgo PHP valodā?
